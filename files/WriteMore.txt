@@ -1,0 +1,3 @@
+Writting into file in String and numner
+Appending data in new line
+Appending data in new line2

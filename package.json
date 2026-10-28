@@ -1,0 +1,28 @@
+{
+  "name": "pw-sept10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^26.6.5",
+    "allure-playwright": "^3.14.0",
+    "tsx": "^4.23.15"
+  },
+  "dependencies": {
+    "mysql2": "^3.24.6",
+    "playwright": "^1.64.0",
+    "typescript": "^7.0.2",
+    "xlsx": "^0.18.5"
+  }
+}

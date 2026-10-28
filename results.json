@@ -1,0 +1,434 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Playwright\\PlaywrightSep26\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/19Wrkg_POMTestWithBaseAppDDT.spec.ts"
+    ],
+    "configFile": "C:\\Playwright\\PlaywrightSep26\\playwright.config.ts",
+    "rootDir": "C:/Playwright/PlaywrightSep26/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 3600000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Playwright/PlaywrightSep26/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Playwright/PlaywrightSep26/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 300000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Playwright\\PlaywrightSep26\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "chromium",
+        "testDir": "C:\\Playwright\\PlaywrightSep26\\tests",
+        "snapshotDir": "C:\\Playwright\\PlaywrightSep26\\tests",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 300000,
+        "use": {
+          "trace": "on",
+          "navigationTimeout": 20000,
+          "actionTimeout": 10000,
+          "screenshot": "only-on-failure",
+          "video": "on-first-retry",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "19Wrkg_POMTestWithBaseAppDDT.spec.ts",
+      "file": "19Wrkg_POMTestWithBaseAppDDT.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Data Driven Test",
+          "file": "19Wrkg_POMTestWithBaseAppDDT.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Add Employee Test for John Doe",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 15716,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "********Executing before all hook0\n"
+                        },
+                        {
+                          "text": "Executing before each hook for test:Add Employee Test for John Doe\n"
+                        },
+                        {
+                          "text": "Test data used for test: Add Employee Test for John Doe [Object: null prototype] {\n  default: { username: \u001b[32m'testadmin'\u001b[39m, password: \u001b[32m'Vibetestq@123#'\u001b[39m },\n  username: \u001b[32m'testadmin'\u001b[39m,\n  password: \u001b[32m'Vibetestq@123#'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "Navigated to URL: https://qtpsudhakar-vibetestq-hrm.up.railway.app\n"
+                        },
+                        {
+                          "text": "Login Page is displayed\n"
+                        },
+                        {
+                          "text": "testadmin entered on Username Textbox\n"
+                        },
+                        {
+                          "text": "Vibetestq@123# entered on Password Textbox\n"
+                        },
+                        {
+                          "text": "Clicked on Login Button\n"
+                        },
+                        {
+                          "text": "Dashboard is visible\n"
+                        },
+                        {
+                          "text": "Clicked on PIM Link\n"
+                        },
+                        {
+                          "text": "PIM page is visible\n"
+                        },
+                        {
+                          "text": "Clicked on Add Employee Link\n"
+                        },
+                        {
+                          "text": "Add Employee page is visible\n"
+                        },
+                        {
+                          "text": "Entered First Name: John\n"
+                        },
+                        {
+                          "text": "Entered Last Name: Doe\n"
+                        },
+                        {
+                          "text": "Entered Unique Employee Id: 1000078860\n"
+                        },
+                        {
+                          "text": "Clicked on Save Button\n"
+                        },
+                        {
+                          "text": "Personal Details page is visible\n"
+                        },
+                        {
+                          "text": "Updating test status to Jira for test:Add Employee Test for John Doe\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-27T02:44:19.096Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\PlaywrightSep26\\test-results\\19Wrkg_POMTestWithBaseAppD-369fb--Employee-Test-for-John-Doe-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "279752f0662dabbf557b-2356638e4c4217fa1665",
+              "file": "19Wrkg_POMTestWithBaseAppDDT.spec.ts",
+              "line": 21,
+              "column": 13
+            },
+            {
+              "title": "Add Employee Test for Jane Smith",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 15712,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "********Executing before all hook1\n"
+                        },
+                        {
+                          "text": "Executing before each hook for test:Add Employee Test for Jane Smith\n"
+                        },
+                        {
+                          "text": "Test data used for test: Add Employee Test for Jane Smith [Object: null prototype] {\n  default: { username: \u001b[32m'testadmin'\u001b[39m, password: \u001b[32m'Vibetestq@123#'\u001b[39m },\n  username: \u001b[32m'testadmin'\u001b[39m,\n  password: \u001b[32m'Vibetestq@123#'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "Navigated to URL: https://qtpsudhakar-vibetestq-hrm.up.railway.app\n"
+                        },
+                        {
+                          "text": "Login Page is displayed\n"
+                        },
+                        {
+                          "text": "testadmin entered on Username Textbox\n"
+                        },
+                        {
+                          "text": "Vibetestq@123# entered on Password Textbox\n"
+                        },
+                        {
+                          "text": "Clicked on Login Button\n"
+                        },
+                        {
+                          "text": "Dashboard is visible\n"
+                        },
+                        {
+                          "text": "Clicked on PIM Link\n"
+                        },
+                        {
+                          "text": "PIM page is visible\n"
+                        },
+                        {
+                          "text": "Clicked on Add Employee Link\n"
+                        },
+                        {
+                          "text": "Add Employee page is visible\n"
+                        },
+                        {
+                          "text": "Entered First Name: Jane\n"
+                        },
+                        {
+                          "text": "Entered Last Name: Smith\n"
+                        },
+                        {
+                          "text": "Entered Unique Employee Id: 1000005775\n"
+                        },
+                        {
+                          "text": "Clicked on Save Button\n"
+                        },
+                        {
+                          "text": "Personal Details page is visible\n"
+                        },
+                        {
+                          "text": "Updating test status to Jira for test:Add Employee Test for Jane Smith\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-27T02:44:19.090Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\PlaywrightSep26\\test-results\\19Wrkg_POMTestWithBaseAppD-f4665-mployee-Test-for-Jane-Smith-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "279752f0662dabbf557b-62f7a2b21eab606ed131",
+              "file": "19Wrkg_POMTestWithBaseAppDDT.spec.ts",
+              "line": 21,
+              "column": 13
+            },
+            {
+              "title": "Add Employee Test for Alice Johnson",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 300000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 16614,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "********Executing before all hook2\n"
+                        },
+                        {
+                          "text": "Executing before each hook for test:Add Employee Test for Alice Johnson\n"
+                        },
+                        {
+                          "text": "Test data used for test: Add Employee Test for Alice Johnson [Object: null prototype] {\n  default: { username: \u001b[32m'testadmin'\u001b[39m, password: \u001b[32m'Vibetestq@123#'\u001b[39m },\n  username: \u001b[32m'testadmin'\u001b[39m,\n  password: \u001b[32m'Vibetestq@123#'\u001b[39m\n}\n"
+                        },
+                        {
+                          "text": "Navigated to URL: https://qtpsudhakar-vibetestq-hrm.up.railway.app\n"
+                        },
+                        {
+                          "text": "Login Page is displayed\n"
+                        },
+                        {
+                          "text": "testadmin entered on Username Textbox\n"
+                        },
+                        {
+                          "text": "Vibetestq@123# entered on Password Textbox\n"
+                        },
+                        {
+                          "text": "Clicked on Login Button\n"
+                        },
+                        {
+                          "text": "Dashboard is visible\n"
+                        },
+                        {
+                          "text": "Clicked on PIM Link\n"
+                        },
+                        {
+                          "text": "PIM page is visible\n"
+                        },
+                        {
+                          "text": "Clicked on Add Employee Link\n"
+                        },
+                        {
+                          "text": "Add Employee page is visible\n"
+                        },
+                        {
+                          "text": "Entered First Name: Alice\n"
+                        },
+                        {
+                          "text": "Entered Last Name: Johnson\n"
+                        },
+                        {
+                          "text": "Entered Unique Employee Id: 1000043625\n"
+                        },
+                        {
+                          "text": "Clicked on Save Button\n"
+                        },
+                        {
+                          "text": "Personal Details page is visible\n"
+                        },
+                        {
+                          "text": "Updating test status to Jira for test:Add Employee Test for Alice Johnson\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-10-27T02:44:19.104Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Playwright\\PlaywrightSep26\\test-results\\19Wrkg_POMTestWithBaseAppD-82a4a-oyee-Test-for-Alice-Johnson-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "279752f0662dabbf557b-b2c0ecb5be7fcb4cd443",
+              "file": "19Wrkg_POMTestWithBaseAppDDT.spec.ts",
+              "line": 21,
+              "column": 13
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-27T02:44:18.601Z",
+    "duration": 18090.368,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
