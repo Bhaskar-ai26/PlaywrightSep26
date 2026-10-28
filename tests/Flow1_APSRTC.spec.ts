@@ -75,6 +75,7 @@ test('Flow1', async ({page})=>{
         console.log("concession::"+concession?.trim());
         await page.locator("input#BookNowBtn:visible").click();
         //validate passenger details
+        console.log("Passenger Details::");
         
 
     });
