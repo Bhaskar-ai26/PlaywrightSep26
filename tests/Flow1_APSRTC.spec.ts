@@ -74,8 +74,7 @@ test('Flow1', async ({page})=>{
         let concession = await page.locator("//td[contains(text(),'Passenger Details')]/following::select[@id='concessionIdsForward0']").locator("option:checked").textContent();
         console.log("concession::"+concession?.trim());
         await page.locator("input#BookNowBtn:visible").click();
-        //validate passenger details
-        console.log("Passenger Details::");
+       
         
 
     });
