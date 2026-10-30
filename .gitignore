@@ -12,7 +12,6 @@ node_modules/
 .env.local
 .env.*.local
 Classes_PW-sept10
-fixtures_org
 MyPractiveSep26
 pom_practice
 fixturePractice
