@@ -1,7 +1,7 @@
 import { test as base } from "@playwright/test";
 
 import * as pages from "../pom"
-import * as testData from "../testdata/credentials.json";
+import * as testData from "../testData/credentials.json";
 
 type tPages = {
     loginPage: pages.LoginPage;
