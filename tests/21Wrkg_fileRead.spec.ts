@@ -31,7 +31,7 @@ test('Read excel', ()=>{
   console.log(data)
 })
 
-test.only('Read specific cell', ()=>{
+test('Read specific cell', ()=>{
   const workbook = xlsx.readFile('files/ReadExcel.xlsx');
   const sheetName = workbook.SheetNames[0];
   const sheet = workbook.Sheets[sheetName];
@@ -58,7 +58,7 @@ test('read Excel', () =>{
   console.log(xlsx.utils.sheet_to_json(data))
 })
 
-test.only('Write', ()=>{
+test('Write', ()=>{
   const workbook = xlsx.utils.book_new();
   const data = [
     {Name: "one"},
