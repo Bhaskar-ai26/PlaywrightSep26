@@ -1,5 +1,5 @@
 import { test } from "../fixtures_org/appbase";
-import {employees} from "../testdata/emp.json";
+import {employees} from "../testData/emp.json";
 
 
 
