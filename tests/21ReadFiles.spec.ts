@@ -5,7 +5,7 @@ import fs from 'fs';
 import xlsx from 'xlsx';
 import {DBHandler} from '../datahandle/dbRead';
 
-test.only('Read txt Files Test', async () => {
+test('Read txt Files Test', async () => {
     // Implement file reading logic here
     const data = fs.readFileSync('files/demo.txt', 'utf-8');
     console.log(data);
